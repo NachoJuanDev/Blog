@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://nachojuandev.github.io',
+	site: 'https://nachojuan.dev',
 	integrations: [mdx(), sitemap()],
 });
