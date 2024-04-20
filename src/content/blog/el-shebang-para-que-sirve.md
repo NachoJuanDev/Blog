@@ -35,7 +35,7 @@ print("Hello World!")
 
 > ¿Qué? ¿Un archivo de `Python3` qué termina en `.sh`?
 
-Si, el shebang lo hace posible. Las extensiones de los archivos por lo general indican el tipo de archivo al cual corresponden, sin embargo, en este caso, el shebang será el encargado de señalar a nuestra terminal que interprete debe ejecutar nuestro script cuando lo ejecutemos como un script bash cualquiera. No debemos olvidar dar los permisos de ejecución a nuestros script:
+Si, el shebang lo hace posible. Las extensiones de los archivos por lo general indican el tipo de archivo al cual corresponden, sin embargo, en este caso, el shebang será el encargado de señalar a nuestra terminal que intérprete debe ejecutar nuestro script cuando lo ejecutemos como un script bash cualquiera. No debemos olvidar dar los permisos de ejecución a nuestros script:
 
 ```bash
 chmod +x script_1.sh script_2.sh
@@ -45,7 +45,7 @@ Con esto, podemos ejecutar nuestros scripts:
 
 ![Terminal con ejecución de los dos scripts](/blog/shebang/terminal-1.png)
 
-Como vemos, ambos scripts funcionaron correctamente. Nuestra terminal, eligió el interprete señalado por el shebang.
+Como vemos, ambos scripts funcionaron correctamente. Nuestra terminal, eligió el intérprete señalado por el shebang.
 
 Por último, por si te estás preguntando por qué se llama shebang, Jason Cannon en su libro de Shell Scripting[^1] señala lo siguiente:
 
